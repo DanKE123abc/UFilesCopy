@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UFilesCopy", "UFilesCopy\UFilesCopy.csproj", "{BD3246A7-321A-4DD7-9C29-672DE8AE90BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD3246A7-321A-4DD7-9C29-672DE8AE90BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3246A7-321A-4DD7-9C29-672DE8AE90BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3246A7-321A-4DD7-9C29-672DE8AE90BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3246A7-321A-4DD7-9C29-672DE8AE90BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
