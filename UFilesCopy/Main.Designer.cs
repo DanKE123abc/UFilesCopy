@@ -122,7 +122,7 @@ partial class Main
         FilesPath.Name = "FilesPath";
         FilesPath.Size = new Size(122, 27);
         FilesPath.TabIndex = 6;
-        FilesPath.Text = "版本号：1.0";
+        FilesPath.Text = "版本号：1.1";
         // 
         // Main
         // 

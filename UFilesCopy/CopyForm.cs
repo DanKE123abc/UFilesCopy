@@ -50,6 +50,8 @@ namespace UFilesCopy
             progressBar.Value = (int)percentComplete;
             FilesPath.Refresh();
             label1.Refresh();
+            progressBar.Refresh();
         }
+
     }
 }

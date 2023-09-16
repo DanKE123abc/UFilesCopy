@@ -15,14 +15,6 @@ public partial class Main : Form
         this.StartPosition = FormStartPosition.CenterScreen;//默认居中显示
         EventCenter.instance.AddEventListener<string>("USBin", IsCopy);
         UsbListener.Start();
-        try
-        {
-            this.Visible = false;
-        }
-        catch (Exception ex)
-        {
-            MessageBox.Show(ex.Message);
-        }
     }
 
     private void IsCopy(string disk)
@@ -168,7 +160,8 @@ public partial class Main : Form
 
     private void Main_Load(object sender, EventArgs e)
     {
-        this.BeginInvoke(new Action(() => {
+        this.BeginInvoke(new Action(() =>
+        {
             this.Visible = false;
         }));
     }
